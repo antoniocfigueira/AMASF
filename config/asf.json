@@ -1,0 +1,58 @@
+{
+  "url": "https://www.asf.com.pt/",
+  "name": "Autoridade de Supervisão de Seguros e Fundos de Pensões",
+  "allowedHosts": ["www.asf.com.pt", "asf.com.pt"],
+  "maxPages": 500,
+  "maxDiscovered": 10000,
+  "maxDepth": 5,
+  "concurrency": 2,
+  "delayMs": 1000,
+  "timeoutMs": 45000,
+  "settleMs": 1500,
+  "engineTimeoutMs": 90000,
+  "maxQueryVariants": 12,
+  "maxSitemapUrls": 5000,
+  "respectRobots": true,
+  "sitemaps": ["https://www.asf.com.pt/sitemap.xml"],
+  "seeds": [],
+  "excludePatterns": ["/logout", "/sign-out", "/o/oauth2/", "/c/portal/logout"],
+  "viewports": [
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "mobile", "width": 390, "height": 844 }
+  ],
+  "screenshots": true,
+  "saveHtml": true,
+  "accessMonitor": true,
+  "axe": true,
+  "headless": true,
+  "sessionDir": ".session/asf",
+  "scenarios": [
+    {
+      "name": "pesquisa-aberta",
+      "urlPattern": "^https://www\\.asf\\.com\\.pt/$",
+      "steps": [
+        { "action": "click", "selector": "button[aria-controls='asfTopSearch']:visible, a.asf-header__searchtoggle--mob:visible" },
+        { "action": "waitFor", "selector": "#asfTopSearch", "state": "visible" }
+      ]
+    },
+    {
+      "name": "menu-mobile-aberto",
+      "urlPattern": "^https://www\\.asf\\.com\\.pt/$",
+      "viewports": ["mobile"],
+      "steps": [
+        { "action": "click", "selector": "button[aria-controls='asfHeaderMenu']" },
+        { "action": "waitFor", "selector": "#asfHeaderMenu", "state": "visible" }
+      ]
+    },
+    {
+      "name": "submenu-asf-aberto",
+      "urlPattern": "^https://www\\.asf\\.com\\.pt/$",
+      "viewports": ["desktop"],
+      "steps": [
+        { "action": "click", "selector": "a.nav-link[aria-controls='asfHMenu_0']:visible" },
+        { "action": "waitFor", "selector": "#asfHMenu_0", "state": "visible" }
+      ]
+    }
+  ],
+  "beforeEach": []
+}

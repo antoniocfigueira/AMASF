@@ -1,0 +1,129 @@
+{
+  "id": "conteudo",
+  "label": "Conteúdo",
+  "source": "https://selo.usabilidade.gov.pt/requisitos/conteudo/",
+  "snapshotUrl": "https://raw.githubusercontent.com/amagovpt/kit-selo/master/checklists/checklist-conteudo.html",
+  "retrievedAt": "2026-10-22T12:12:38.439Z",
+  "sha256": "0a0dcc3383f451f5eda6f4b06ab9337aade72ec393989d2c4b8f4d570412e9ca",
+  "requirements": [
+    {
+      "id": "conteudo:1.1",
+      "number": "1.1",
+      "title": "O sítio Web apresenta um resumo breve do seu propósito, visível sem se fazer scroll",
+      "guidance": "Num primeiro vislumbre do sítio Web deve ser visível uma breve definição do seu propósito que dê a indicação ao utilizador de que sítio Web se trata e quais são as tarefas que se podem levar a efeito.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n11"
+    },
+    {
+      "id": "conteudo:1.2",
+      "number": "1.2",
+      "title": "Os termos mais complexos têm uma definição agregada",
+      "guidance": "Quando são usados termos complexos ou técnicos que não sejam de uso corrente, estes devem ter agregada uma definição. Todos os termos definidos desta forma devem fazer parte de um glossário disponível no sítio Web.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n12"
+    },
+    {
+      "id": "conteudo:1.3",
+      "number": "1.3",
+      "title": "Cada bloco de conteúdo contém a sua data de atualização",
+      "guidance": "Cada bloco de conteúdo isolado ou conjunto de blocos de conteúdo relacionado deverá ter a data da sua atualização associada, expressa num tamanho de letra 2 pontos abaixo ao do corpo do texto, com contraste mais reduzido mas nunca inferior a 4,5:1.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n13"
+    },
+    {
+      "id": "conteudo:1.4",
+      "number": "1.4",
+      "title": "A informação sobre a entidade responsável pelo conteúdo está em todas as páginas",
+      "guidance": "A identificação da entidade responsável pelos conteúdos produzidos, incluindo uma hiperligação para a página de contactos deverá constar do rodapé de todas as páginas.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n14"
+    },
+    {
+      "id": "conteudo:2.1",
+      "number": "2.1",
+      "title": "O tipo de letra do corpo do documento é adequado e o tamanho da letra é, no mínimo, de 12 pontos",
+      "guidance": "De forma a assegurar a boa legibilidade do texto para todos os utilizadores, o tamanho de letra do texto que compõe o corpo do documento deverá ser, no mínimo, de 12 pontos, assegurando sempre que os mesmos são escaláveis para tamanhos superiores, sempre que o utilizador considere necessário.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n21"
+    },
+    {
+      "id": "conteudo:2.2",
+      "number": "2.2",
+      "title": "A informação secundária (datas, autores) utiliza, no mínimo, um tamanho de letra de 10 pontos",
+      "guidance": "A informação secundária, como os autores de textos ou de imagens, as datas de publicação ou outros tipos de meta-informação, podem usar tamanhos de letra mais pequenos, mas, no mínimo, com 10 pontos, assegurando sempre que os mesmos são escaláveis para tamanhos superiores, sempre que o utilizador considere necessário.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n22"
+    },
+    {
+      "id": "conteudo:2.3",
+      "number": "2.3",
+      "title": "Blocos e linhas de texto com largura não superior a 100 caracteres",
+      "guidance": "Para manter o conforto de leitura, os blocos ou linhas de texto não deverão ter mais de 100 caracteres de largura. Os 80 caracteres correspondem à dimensão que se apresenta nos estudos como a mais confortável para os utilizadores.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n23"
+    },
+    {
+      "id": "conteudo:2.4",
+      "number": "2.4",
+      "title": "O espaçamento entre linhas não é inferior a 1.5x o tamanho da letra",
+      "guidance": "Para assegurar a leitura confortável de blocos de texto deve ser usado um espaçamento entre linhas de 1.5x o tamanho da letra.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n24"
+    },
+    {
+      "id": "conteudo:3.1",
+      "number": "3.1",
+      "title": "Nenhum nível de navegação tem mais de 9 opções",
+      "guidance": "A navegação principal deve ser equilibrada, nem com demasiadas opções de topo sem opções secundárias, nem com poucas opções de topo e muitas opções secundarias. Nenhum nível de navegação deve ter mais de 9 opções.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n31"
+    },
+    {
+      "id": "conteudo:3.2",
+      "number": "3.2",
+      "title": "A navegação principal está sempre visível e sempre no mesmo local",
+      "guidance": "As opções de primeiro nível da navegação principal estão sempre visíveis e encontram-se sempre no mesmo local em todas as páginas. A posição atual do utilizador na estrutura de navegação deve ser evidenciada.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n32"
+    },
+    {
+      "id": "conteudo:3.3",
+      "number": "3.3",
+      "title": "As hiperligações de texto não devem ser diferenciadas apenas com base na cor",
+      "guidance": "As hiperligações de texto devem apresentar um contraste mínimo de 4,5:1 com a envolvente e uma representação visual complementar à cor - idealmente as hiperligações devem apresentar-se sublinhadas. As hiperligações em texto devem apresentar-se da mesma forma em todo o sítio Web.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n33"
+    },
+    {
+      "id": "conteudo:4.1",
+      "number": "4.1",
+      "title": "Os documentos longos têm um índice no topo com hiperligações internas para o mesmo",
+      "guidance": "Os documentos com mais de três ecrãs de altura deverão ter a hierarquia de cabeçalhos espelhada num índice no topo da página com hiperligações internas para as respetivas secções e subsecções.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n41"
+    },
+    {
+      "id": "conteudo:4.2",
+      "number": "4.2",
+      "title": "O layout do sítio Web é adaptável a plataformas móveis sem necessidade de efetuar varrimento horizontal",
+      "guidance": "O layout do sítio Web deve ser adaptável aos tamanhos mais comuns de visualização, adaptando-se a várias larguras de ecrã sem que surjam barras de varrimento horizontais.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n42"
+    },
+    {
+      "id": "conteudo:5.1",
+      "number": "5.1",
+      "title": "Não existem elementos interativos acionados apenas com a passagem do rato (hover)",
+      "guidance": "Não devem existir elementos de interação, como hiperligações ou botões, que aparecem apenas quando se passa por cima com um dispositivo apontador. Este método de interação não está disponível em aparelhos com interação por toque.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n51"
+    },
+    {
+      "id": "conteudo:5.2",
+      "number": "5.2",
+      "title": "Os elementos interativos têm uma dimensão mínima de 44px CSS (44 pontos) (vertical e horizontal)",
+      "guidance": "De forma a assegurar que todos os elementos interativos são facilmente acionáveis por qualquer tipo de dispositivo apontador ou toque, estes devem ter a dimensão mínima de 44px CSS de altura e de largura.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n52"
+    },
+    {
+      "id": "conteudo:5.3",
+      "number": "5.3",
+      "title": "Há apenas um botão de ação principal por página e o mesmo encontra-se destacado",
+      "guidance": "Deve existir apenas um botão de ação principal por página e o mesmo deve apresentar-se numa cor contrastante. Todos os outros botões devem ser considerados como secundários.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n53"
+    },
+    {
+      "id": "conteudo:5.4",
+      "number": "5.4",
+      "title": "Elementos gráficos interativos têm de aparentar ser clicáveis",
+      "guidance": "Os elementos gráficos clicáveis devem ser percecionáveis como tal, através da forma, da cor ou do aparente volume.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-conteudo.html#n54"
+    }
+  ]
+}

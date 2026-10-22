@@ -1,0 +1,36 @@
+{
+  "name": "asf-auditor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Auditoria automática de acessibilidade e preparação para o Selo Prata",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "audit": "node src/cli.mjs scan --config config/asf.json",
+    "smoke": "node src/cli.mjs scan --config config/asf.json --max-pages 3 --output runs/asf-smoke",
+    "report": "node src/cli.mjs report",
+    "session": "node src/cli.mjs session --config config/asf.json",
+    "start": "node src/server.mjs",
+    "test": "node --test --test-concurrency=1"
+  },
+  "dependencies": {
+    "@a12e/accessmonitor-rulesets": "1.0.4",
+    "@axe-core/playwright": "4.10.2",
+    "@qualweb/act-rules": "0.7.6",
+    "@qualweb/best-practices": "0.7.12",
+    "@qualweb/core": "0.8.10",
+    "@qualweb/counter": "0.3.4",
+    "@qualweb/locale": "0.2.2",
+    "@qualweb/qw-page": "0.3.6",
+    "@qualweb/util": "0.6.6",
+    "@qualweb/wcag-techniques": "0.4.7",
+    "css-select": "5.1.0",
+    "esbuild": "0.25.12",
+    "fast-xml-parser": "5.3.0",
+    "htmlparser2": "8.0.1",
+    "lodash.clone": "4.5.0",
+    "playwright": "1.56.1",
+    "robots-parser": "3.0.1"
+  }
+}

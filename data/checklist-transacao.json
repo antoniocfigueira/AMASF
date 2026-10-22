@@ -1,0 +1,101 @@
+{
+  "id": "transacao",
+  "label": "Transação",
+  "source": "https://selo.usabilidade.gov.pt/requisitos/transacao/",
+  "snapshotUrl": "https://raw.githubusercontent.com/amagovpt/kit-selo/master/checklists/checklist-transacao.html",
+  "retrievedAt": "2026-10-22T12:12:38.455Z",
+  "sha256": "c9f570fdbb23db5c092c8bcc2fc603e3804c1fd41d483dd25deab1fe33f04698",
+  "requirements": [
+    {
+      "id": "transacao:1.1",
+      "number": "1.1",
+      "title": "A sequência de tabulação entre campos segue a sequência de preenchimento",
+      "guidance": "A ordem de tabulação por entre os campos deve corresponder à sequência normal de preenchimento do formulário.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n11"
+    },
+    {
+      "id": "transacao:1.2",
+      "number": "1.2",
+      "title": "Os formulários com mais de 2 ecrãs de altura devem ser distribuídos por várias páginas",
+      "guidance": "Os formulários não devem ser apresentados de forma excessivamente longa. Os formulários que ocupem mais de 2 ecrãs de altura devem ser distribuídos por tantos ecrãs quantos os necessários, para cumprir com esta regra. Os formulários longos podem também ter vários momentos de interação diferidos, solicitando ao utilizador a informação absolutamente necessária em cada etapa, em oposição à solicitação de toda a informação necessária logo num primeiro momento de interação.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n12"
+    },
+    {
+      "id": "transacao:1.3",
+      "number": "1.3",
+      "title": "Os formulários com mais de uma página têm a sequência de passos ilustrada",
+      "guidance": "Os formulários distribuídos por várias páginas devem indicar no topo da página a sequência de passos necessária para os concluir, juntamente com a designação de cada passo. O utilizador deve ser capaz de selecionar os passos anteriores para retornar aos ecrãs respetivos e, se necessário, corrigir informação.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n13"
+    },
+    {
+      "id": "transacao:2.1",
+      "number": "2.1",
+      "title": "O tamanho dos campos deve refletir o tamanho previsível dos dados",
+      "guidance": "O tamanho dos campos deve refletir o tamanho previsível para a entrada dos dados. Por exemplo, um campo para telefone deve ter a largura estritamente necessária para conter todos os dígitos. Nem mais nem menos.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n21"
+    },
+    {
+      "id": "transacao:2.2",
+      "number": "2.2",
+      "title": "É usada revelação progressiva em vez de campos inativos",
+      "guidance": "Em vez de mostrar campos inativos, o formulário deve esconder os campos dependentes do campo-chave sempre que este não tenha sido ativado. Ao ativar o campo-chave são exibidos os campos que dependem da condição nele definida.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n22"
+    },
+    {
+      "id": "transacao:2.3",
+      "number": "2.3",
+      "title": "As legendas dos campos são breves e claras",
+      "guidance": "As legendas associadas aos campos devem ser claras e o mais breves possível, sem recorrer a grandes explicações. Se essas explicações forem necessárias, devem ser apresentadas num bloco de texto paralelo.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n23"
+    },
+    {
+      "id": "transacao:2.4",
+      "number": "2.4",
+      "title": "Campos obrigatórios devem ser claramente indicados como tal",
+      "guidance": "A identificação não deve basear-se apenas na cor. A sinalética visual de identificação deve ser notória. Deve ser disponibilizado um equivalente alternativo compatível com as tecnologias de apoio usadas por utilizadores com necessidades especiais.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n24"
+    },
+    {
+      "id": "transacao:3.1",
+      "number": "3.1",
+      "title": "Em ações longas, o sistema deve indicar o que está a acontecer",
+      "guidance": "O sistema deve indicar o que está a processar ou qual o tempo de espera expectável quando o utilizador desencadeia ações que levem a este comportamento.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n31"
+    },
+    {
+      "id": "transacao:3.2",
+      "number": "3.2",
+      "title": "Deve ser confirmado o sucesso da transação/envio de informação",
+      "guidance": "O sucesso de uma transação deve ser claramente comunicado ao utilizador através de uma mensagem de confirmação.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n32"
+    },
+    {
+      "id": "transacao:4.1",
+      "number": "4.1",
+      "title": "A informação já introduzida deve poder ser corrigida a qualquer momento",
+      "guidance": "Toda a informação já transmitida pelo utilizador numa sessão pode ser corrigida, em qualquer momento, antes da transação ser finalizada.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n41"
+    },
+    {
+      "id": "transacao:4.2",
+      "number": "4.2",
+      "title": "As ações destrutivas nunca devem ser permanentes; deve ser sempre possível desfazer a operação",
+      "guidance": "O utilizador deve poder recuperar de qualquer ação que tenha tomado durante a sessão.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n42"
+    },
+    {
+      "id": "transacao:4.3",
+      "number": "4.3",
+      "title": "As mensagens de erro são claramente identificadas junto aos campos de origem",
+      "guidance": "As mensagens de erro devem ser apresentadas claramente associadas aos campos a que dizem respeito. Isto não invalida a necessidade de as apresentar numa lista sumário. Esta última técnica é particularmente útil em páginas longas.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n43"
+    },
+    {
+      "id": "transacao:4.4",
+      "number": "4.4",
+      "title": "As mensagens de erro devem mostrar os passos concretos para a resolução dos mesmos",
+      "guidance": "As mensagens de erro devem ser claras e sucintas, não expondo desnecessariamente o utilizador a mecanismos internos do sistema, explicando claramente os passos necessários para que o utilizador resolva o problema.",
+      "source": "https://amagovpt.github.io/kit-selo/checklists/checklist-transacao.html#n44"
+    }
+  ]
+}

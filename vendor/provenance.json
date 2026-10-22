@@ -1,0 +1,10 @@
+{
+  "source": "../monitor-server/src/evaluation",
+  "commit": "324958037277c702d5c53fbd0373eaab5d1dab90",
+  "hashes": {
+    "mapping.ts": "4ee064c10b0cda8fec8744db447893ba494909ae23056d2a610b49dc508314e6",
+    "middleware.ts": "2ad7c0555c7b9749f5c480f8c8bcf780127bc06ce088c92ea10c4522fa99fe51"
+  },
+  "rulesets": "1.0.4",
+  "description": "Código original sem alterações; bundle expõe parseEvaluation e generateScore. Navegação e MD5 substituídos por adaptadores locais."
+}
